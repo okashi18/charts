@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  kubetoy:
+  - apiVersion: v1
+    created: 2018-03-06T10:59:34.900083-05:00
+    description: A simple Node.js application used to explore Kubernetes deployments.
+    digest: 8ef45b9ed2dadf059a9839680c8917d2c374481ad255b6ef0fd42d4748db5583
+    icon: http://ibm-icp-coc.github.io/stable/kubetoy/duck.png
+    name: kubetoy
+    urls:
+    - http://ibm-icp-coc.github.io/repo/stable/kubetoy-1.0.0.tgz
+    version: 1.0.0
+generated: 2018-03-06T10:59:34.899475-05:00
