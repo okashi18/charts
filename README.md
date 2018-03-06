@@ -4,6 +4,6 @@ Helm chart repository for ICP developed or managed by the IBM Cloud Private Cent
 
 The repository URL for this Helm Chart repository is:
 
-`https://ibm-icp-coc.github.io/charts/stable`
+`https://ibm-icp-coc.github.io/charts/repo/stable`
 
 
