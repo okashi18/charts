@@ -1,6 +1,6 @@
-![gog](https://ibm-icp-coc.github.io/charts/repo/unstable/gog.png "GOG logo")
-# GOG for ICP 
-A packaging of the Git basec SCM GOG for IBM Cloud Private
+![gog](https://ibm-icp-coc.github.io/charts/repo/unstable/jenkins.png "GOG logo")
+# Jenkins for ICP
+A packaging of Jekins for ICP.
 
 
 

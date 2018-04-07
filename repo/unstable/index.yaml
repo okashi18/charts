@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   gog-icp:
   - apiVersion: v1
-    created: 2018-04-07T17:43:23.750486-04:00
+    created: 2018-04-07T17:48:05.051368-04:00
     description: A Helm chart for Gog on ICP
     digest: f14ba04401c9b700d1b14694fede78881a13355564488472f0c5756647d4b8ad
     name: gog-icp
@@ -12,13 +12,12 @@ entries:
     version: 0.1.1
   jenkins-icp:
   - apiVersion: v1
-    created: 2018-04-07T17:43:23.751001-04:00
+    created: 2018-04-07T17:48:05.051806-04:00
     description: A Helm chart for Jenkins on ICP
-    digest: daac9746c183ed43fb984195027631896d75b371fe64ce4f9a7843425b8413f5
+    digest: beb30a022cac447b5b186bfd30d96856631cb433d970a2ab184dbc9f24bb011e
     name: jenkins-icp
     icon: https://ibm-icp-coc.github.io/charts/repo/unstable/jenkins.png
     urls:
     - https://ibm-icp-coc.github.io/charts/repo/unstable/jenkins-icp-0.9.0.tgz
     version: 0.9.0
-generated: 2018-04-07T17:43:23.749864-04:00
-
+generated: 2018-04-07T17:48:05.050686-04:00
