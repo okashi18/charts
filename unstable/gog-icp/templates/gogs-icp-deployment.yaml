@@ -21,7 +21,7 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         env:
         - name: SOCAT_LINK
-          value: 0
+          value: "false"
         ports:
         - containerPort: 22
         - containerPort: 3000
