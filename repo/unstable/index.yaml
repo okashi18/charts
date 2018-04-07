@@ -5,7 +5,7 @@ entries:
     created: 2018-04-07T11:17:28.531779-04:00
     description: A Helm chart for Gog on ICP
     digest: a2473beb9d383e6f6cdb6067610ddd83826a098560eafa9cef794a196c628fb8
-    name: https://ibm-icp-coc.github.io/charts/repo/unstable/gog-icp
+    name: gog-icp
     icon: https://ibm-icp-coc.github.io/charts/repo/unstable/gog.png
     urls:
     - https://ibm-icp-coc.github.io/charts/repo/unstable/gog-icp-0.1.0.tgz
