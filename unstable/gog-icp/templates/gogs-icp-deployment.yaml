@@ -29,6 +29,6 @@ spec:
         - name: datavol
           mountPath: /data
       volumes:
-        - name: datavol
-          persistentVolumeClaim:
-            claimName: {{ .Values.pvc }}
+      - name: datavol
+        persistentVolumeClaim:
+          claimName: {{ .Values.pvc }}
