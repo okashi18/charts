@@ -6,10 +6,6 @@ image:
 service:
   name: gog-icp-svc
   type: LoadBalancer
-  http.port: 80
-  http.targetPort: 3000
-  ssh.port: 22
-  ssh.targetPort: 22
 storage:
   pvc: gog-icp-pvc
   accessMode: ReadWriteOnce
