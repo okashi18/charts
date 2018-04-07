@@ -16,18 +16,18 @@ spec:
         release: {{ .Release.Name }}
     spec:
       containers:
-        - name: {{ .Chart.Name }}
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
-          env:
-            - name: SOCAT_LINK
-              value: 0
-          ports:
-            - containerPort: 22
-            - containerPort: 3000
-          volumeMounts:
-            - name: datavol
-              mountPath: /data
+      - name: {{ .Chart.Name }}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        env:
+        - name: SOCAT_LINK
+          value: 0
+        ports:
+        - containerPort: 22
+        - containerPort: 3000
+        volumeMounts:
+        - name: datavol
+          mountPath: /data
       volumes:
         - name: datavol
           persistentVolumeClaim:
