@@ -1,0 +1,12 @@
+replicaCount: 1
+image:
+  repository: ibmicpcoc/jenkins-icp
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  name: jenkins-icp-svc
+  type: LoadBalancer
+storage:
+  pvc: jenkins-icp-pvc
+  accessMode: ReadWriteOnce
+  size: 5Gi

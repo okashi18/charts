@@ -9,10 +9,11 @@ spec:
   ports:
   - name: http
     port: 80
-    targetPort: 3000
+    targetPort: 8080
     protocol: TCP
-  - name: ssh
-    port: 22
+  - name: worker
+    port: 50000
+    targetPort: 50000
     protocol: TCP
   selector:
     app: {{ template "name" . }}
