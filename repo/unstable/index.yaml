@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   gog-icp:
   - apiVersion: v1
-    created: 2018-04-07T16:11:02.796081-04:00
+    created: 2018-04-07T16:25:15.760034-04:00
     description: A Helm chart for Gog on ICP
-    digest: c7c9b5d02dcf50feba103852a372c4e10010348bc9af8ce0a655b7df9eb945d2
+    digest: 16669d4500b47d040d6db0fbfce22051a22e22cb480591a586980b495944d6e6
     name: gog-icp
-    icons: https://ibm-icp-coc.github.io/charts/repo/unstable/gog.png
+    icon: https://ibm-icp-coc.github.io/charts/repo/unstable/gog.png
     urls:
     - https://ibm-icp-coc.github.io/charts/repo/unstable/gog-icp-0.1.1.tgz
     version: 0.1.1
-generated: 2018-04-07T16:11:02.795413-04:00
+generated: 2018-04-07T16:25:15.759415-04:00
