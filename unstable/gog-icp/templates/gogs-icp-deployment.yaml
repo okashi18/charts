@@ -19,15 +19,15 @@ spec:
       - name: {{ .Chart.Name }}
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
-        env:
-        - name: SOCAT_LINK
-          value: "false"
-        ports:
-        - containerPort: 22
-        - containerPort: 3000
         volumeMounts:
         - name: datavol
           mountPath: /data
+        ports:
+        - containerPort: 22
+        - containerPort: 3000
+        env:
+        - name: SOCAT_LINK
+          value: "false"
       volumes:
       - name: datavol
         persistentVolumeClaim:
