@@ -1,0 +1,12 @@
+replicaCount: 1
+image:
+  repository: gogs/gogs
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  name: gog-icp-svc
+  type: LoadBalancer
+storage:
+  pvc: gog-icp-pvc
+  accessMode: ReadWriteOnce
+  size: 20Gi
