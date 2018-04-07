@@ -31,4 +31,4 @@ spec:
       volumes:
       - name: datavol
         persistentVolumeClaim:
-          claimName: {{ .Values.pvc }}
+          claimName: {{ .Values.storage.pvc }}
