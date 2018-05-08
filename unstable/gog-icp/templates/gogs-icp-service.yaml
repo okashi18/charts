@@ -13,6 +13,7 @@ spec:
     protocol: TCP
   - name: ssh
     port: 22
+    targetPort: 3022
     protocol: TCP
   selector:
     app: {{ template "name" . }}
