@@ -5,7 +5,7 @@ image:
   pullPolicy: IfNotPresent
 service:
   name: gog-icp-svc
-  type: LoadBalancer
+  type: NodePort
 storage:
   pvc: gog-icp-pvc
   accessMode: ReadWriteOnce
