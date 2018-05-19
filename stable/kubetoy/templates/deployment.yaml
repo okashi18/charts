@@ -18,16 +18,31 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         ports:
         - containerPort: 3000
+# {{ if eq .Values.storage.useSharedStorage true }}
         volumeMounts:
         - name: datavol
           mountPath: /var/test
+# {{ end }}
         livenessProbe:
           httpGet:
             path: /health
             port: 3000
           initialDelaySeconds: 10
           periodSeconds: 5
+# {{ if eq .Values.storage.useSharedStorage true }}
       volumes:
       - name: datavol
         persistentVolumeClaim:
           claimName: {{ .Values.storage.pvc }} 
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ .Values.storage.pvc }}
+spec:
+  accessModes:
+    - {{ .Values.storage.accessmode }}
+  resources:
+    requests:
+      storage: 1Gi
+# {{ end }}
