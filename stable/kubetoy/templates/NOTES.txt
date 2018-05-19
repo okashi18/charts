@@ -1,1 +1,4 @@
-This is just a simple toy application for exploring kubernetes.
+This is just a simple toy application for exploring kubernetes.  
+
+Try to specify a persistent volume claim that doesn't already exist if 
+you don't want to confuse someone.
