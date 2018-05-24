@@ -18,6 +18,17 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         ports:
         - containerPort: 3000
+        env:
+        - name: ENV_TOY_CONFIGMAP
+          valueFrom: 
+            configMapKeyRef:
+              name: kubetoy-configmap-env
+              key: ENV_TOY_CONFIGMAP
+        - name: ENV_TOY_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: kubetoy-secret-env
+              key: ENV_TOY_SECRET
         volumeMounts:
         - name: configvol
           mountPath: /var/config
