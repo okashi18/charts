@@ -1,4 +1,4 @@
-# Kubetoy 1.1.0
+# Kubetoy 1.3.0
 
 A Kubernetes Toy Application
 
