@@ -1,4 +1,4 @@
-This is just a simple toy application for exploring kubernetes.  
+This is just a simple toy application for exploring Kubernetes.  
 
-Try to specify a persistent volume claim that doesn't already exist if 
-you don't want to confuse someone.
+If you override the storage.useSharedStorage parameter, make sure the persistent volume claim is 
+not already used by another instance of the app.
