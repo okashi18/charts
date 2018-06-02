@@ -1,5 +1,5 @@
 ![KubeToy](https://ibm-icp-coc.github.io/charts/repo/stable/duck.png "KubeToy logo")
-# Kubetoy 1.4.0
+# Kubetoy 1.5.0
 
 A Kubernetes Toy Application
 
@@ -7,6 +7,9 @@ This a simple Node.js app to be used with IBM Cloud Private demos.  It helps exp
 
 See the GitHub [documentation](https://github.com/IBM-ICP-CoC/KubeToy) for examples of how to use this 
 app.
+
+
+Versions 1.5.0 has updated UI, but no significant functionality changes.
 
 
 ## Configuration
