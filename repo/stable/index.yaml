@@ -2,16 +2,16 @@ apiVersion: v1
 entries:
   kubetoy:
   - apiVersion: v1
-    created: 2018-06-02T18:05:08.743581-04:00
+    created: 2018-06-02T20:15:11.25027-04:00
     description: A simple Node.js application used to explore Kubernetes deployments.
-    digest: f00f74737ce66f7eb08abca119e248ef8adce4a8d0bd961e502d93b10d846323
+    digest: 243093642e4c4b935712735ec595b034f7a300eea0a95826db1d0d254b41bb38
     icon: https://ibm-icp-coc.github.io/charts/repo/stable/duck.png
     name: kubetoy
     urls:
     - https://ibm-icp-coc.github.io/charts/repo/stable/kubetoy-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
-    created: 2018-06-02T18:05:08.743302-04:00
+    created: 2018-06-02T20:15:11.24995-04:00
     description: A simple Node.js application used to explore Kubernetes deployments.
     digest: ef8e79a469d59a0779a264a72bf8470ce69ff18ce97ce3f30175c3b24b9d95e7
     icon: https://ibm-icp-coc.github.io/charts/repo/stable/duck.png
@@ -20,7 +20,7 @@ entries:
     - https://ibm-icp-coc.github.io/charts/repo/stable/kubetoy-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
-    created: 2018-06-02T18:05:08.743004-04:00
+    created: 2018-06-02T20:15:11.238843-04:00
     description: A simple Node.js application used to explore Kubernetes deployments.
     digest: b61bb66dce8414ae1fe52f1334913fa2ae16eb3dd06c0b50b7c1ddcbe22d23b9
     icon: https://ibm-icp-coc.github.io/charts/repo/stable/duck.png
@@ -28,4 +28,4 @@ entries:
     urls:
     - https://ibm-icp-coc.github.io/charts/repo/stable/kubetoy-1.3.0.tgz
     version: 1.3.0
-generated: 2018-06-02T18:05:08.742532-04:00
+generated: 2018-06-02T20:15:11.228786-04:00

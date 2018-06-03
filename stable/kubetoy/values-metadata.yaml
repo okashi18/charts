@@ -1,0 +1,13 @@
+## This metadata is used to augment the value.yaml to drive ICP UI for configuration of the Helm chart installation
+
+storage:
+  __metadata:
+    label: "Use shared storage"
+  enabled:
+   __metadata:
+      name: "useSharedStorage"
+      label: "Enable persistence for this deployment"
+      description: "Enables persistence for this deployment. Defaults to false. A persistent volume is required if true."
+      type: "boolean"
+      immutable: "false"
+      required: true
