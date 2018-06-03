@@ -34,7 +34,7 @@ spec:
           mountPath: /var/config
         - name: secretvol
           mountPath: /var/secret
-# {{ if eq .Values.storage.useSharedStorage  }}
+# {{ if .Values.storage.useSharedStorage  }}
         - name: datavol
           mountPath: /var/test
 # {{ end }}
@@ -51,12 +51,12 @@ spec:
       - name: secretvol
         secret:
           secretName: kubetoy-secret-files
-# {{ if eq .Values.storage.useSharedStorage  }}
+# {{ if .Values.storage.useSharedStorage  }}
       - name: datavol
         persistentVolumeClaim:
           claimName: {{ .Values.storage.pvc }} 
 # {{ end }}
-# {{ if eq .Values.storage.useSharedStorage  }}
+# {{ if .Values.storage.useSharedStorage  }}
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
