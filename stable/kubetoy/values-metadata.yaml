@@ -3,7 +3,7 @@
 storage:
   __metadata:
     label: "Use shared storage"
-  enabled:
+  useSharedStorage:
    __metadata:
       name: "useSharedStorage"
       label: "Enable persistence for this deployment"
