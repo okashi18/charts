@@ -1,7 +1,7 @@
 # Default values for kubetoy.
 replicaCount: 3
 image:
-  repository: ibmicpcoc/kubetoy
+  repository: registry.ng.bluemix.net/kubetoy/kubetoy
   pullPolicy: IfNotPresent
 service:
   name: kubetoy-service
