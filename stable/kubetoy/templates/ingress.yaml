@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kubetoy-ingress
+spec:
+  rules:
+  - host:
+    http:
+      paths:
+      - path: /kubetoy
+        backend:
+          serviceName: kubetoy-ui-service
+          servicePort: 80
