@@ -4,7 +4,7 @@ metadata:
   name: kubetoy-ingress
 spec:
   rules:
-  - host:
+  - host: {{ .Values.ingress.host }}
     http:
       paths:
       - path: /kubetoy
