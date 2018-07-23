@@ -4,7 +4,7 @@ image:
   repository: likethecereal/kubetoy
   pullPolicy: IfNotPresent
 service:
-  name: kubetoy-service
+  name: kubetoy-ui-service
   type: NodePort
   externalPort: 80
 storage:
