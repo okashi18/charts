@@ -11,3 +11,5 @@ storage:
   useSharedStorage: false
   pvc: kubetoy-pvc
   accessmode: ReadWriteMany
+ingress:
+  host:
